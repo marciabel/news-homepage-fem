@@ -267,6 +267,11 @@ main {
         color: var(--dark-grayish-blue);
     }
 
+    .nav-bar__menu-items__item:hover {
+        color:  var(--soft-red);
+    }
+
+
     /* Headline section */
     .headline {
         grid-template-columns: 1fr 1fr;
@@ -297,12 +302,21 @@ main {
         grid-row: 3 / 4;
     }
 
+    .headline__button:hover {
+        background: var(--very-dark-blue);
+        color: var(--off-white);
+    }
+
     /* Top news section */
 
     .top-news {
         grid-column: 1 / 3;
 
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .top-news__article__information__title:hover {
+        color: var(--soft-red);
     }
 
     /* Footer */
